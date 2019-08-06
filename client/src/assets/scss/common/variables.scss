@@ -1,0 +1,70 @@
+$base-font-size: 16;
+
+// Paths
+// -------------------------
+$imgPath:                   '/assets/images/';
+$svgPath:                   '/assets/svg/';
+$fontsPath:                 '/assets/fonts/';
+
+// Fonts
+// -------------------------
+:root {
+  --montser:                   'Montserrat';
+  --regular:                   400;
+  --medium:                    500;
+  --fz55:                      55px;
+  --fz48:                      48px;
+  --fz42:                      42px;
+  --fz34:                      34px;
+  --fz24:                      24px;
+  --fz18:                      18px;
+  --fz15:                      15px;
+  --fz13:                      13px;
+  --fz10:                      10px;
+  --fz8:                       8px;
+  --lh68:                      68px;
+  --lh42:                      42px;
+  --lh37:                      37px;
+  --lh36:                      36px;
+  --lh28:                      28px;
+  --lh19:                      19px;
+  --lh16:                      16px;
+  --lh13:                      13px;
+  --lh10:                      10px;
+}
+
+
+
+// Colors
+// -------------------------
+:root {
+--white:                     #ffffff;
+--black:                     rgb(13, 17, 23);
+--black25:                   rgba(13, 17, 23, .25);
+--black35:                   rgba(13, 17, 23, .35);
+--black45:                   rgba(13, 17, 23, .35);
+--black65:                   rgba(13, 17, 23, .65);
+--black85:                   rgba(13, 17, 23, .85);
+--sapphire:                  #072c45;
+--spaceBlue:                 #0495f7;
+--spaceBlue65:               rgba(4, 149, 247, .65);
+--spaceBlue85:               rgba(4, 149, 247, .85);
+--blue:                      #36aaf8;
+--spaceGray:                 #1c2830;
+--lightGray:                 #d8d8d8;
+--smokyWhite:                #f6f6f6;
+--lightBlueGray:             #f0f4f8;
+--lightBlueGray45:             rgba(240, 244, 248, .45);
+--lightBlueGray85:             rgba(240, 244, 248, .85);
+}
+
+// Breakpoints
+// -------------------------
+:root {
+--mobile:                    "375px";
+--mobileLarge:               "575px";
+--tablet:                    "768px";
+--tabletLarge:               "1280px";
+--desktop:                   "1440px";
+--desktopLarge:              "1920px";
+}

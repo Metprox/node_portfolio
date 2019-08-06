@@ -1,0 +1,33 @@
+@media screen and (min-width: 1441px) {
+  .header {
+    &-top {
+      margin-bottom: em(15);
+      .item {
+        margin-right: em(342);
+        .logo-app {
+          img {
+            padding-top: em(0);
+          }
+        }
+      }
+    }
+    &-item-mob {
+      .header-item {
+        &:nth-child(1) {
+          padding-left: em(0);
+        }
+        .info-download {
+          ul {
+            padding-left: em(3);
+          }
+        }
+      }
+    }
+    &-item {
+      &:nth-child(1) {
+        margin-left: em(35);
+        margin-right: em(22);
+      }
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "mongoURI": "mongodb+srv://met123:met123@metconnector-40qk6.mongodb.net/test?retryWrites=true&w=majority",
+  "jwtSecret": "mysectertoken",
+  "githubClientId": "b89e28e15ad3af5aab2d",
+  "githubSecret": "16a30c1ca6f2d4e957389a25f941d8f5b91c605b"
+}
